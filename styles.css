@@ -62,9 +62,34 @@ body {
       width: 3em;
 
       border-radius: 0.5em;
-      border: 1px solid #bbc4c5;
 
+      border: 1px solid #bbc4c5;
       background-color: #cfdadb;
+
+      &.f {
+        border: 1px solid #ec5959;
+        background-color: #ec595980;
+      }
+
+      &.d {
+        border: 1px solid #ec8728;
+        background-color: #ec872880;
+      }
+
+      &.c {
+        border: 1px solid #f1bd2e;
+        background-color: #f1bd2e80;
+      }
+
+      &.b {
+        border: 1px solid #57c037;
+        background-color: #57c03780;
+      }
+
+      &.a {
+        border: 1px solid #2e72f1;
+        background-color: #2e72f180;
+      }
     }
 
     & #output,
@@ -75,7 +100,7 @@ body {
     }
 
     & input[name="grade"] {
-      &::-webkit-inner-spin-button,
+      /* &::-webkit-inner-spin-button,
       &::-webkit-outer-spin-button {
         -webkit-appearance: none;
         margin: 0;
@@ -83,7 +108,7 @@ body {
 
       & {
         -moz-appearance: textfield;
-      }
+      } */
     }
   }
 
